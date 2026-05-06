@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\GEORGE\\Proyectos\\Proy_DonMaxi\\Proy_DonMaxi.csproj": {}
+    "C:\\Users\\johan\\Desktop\\MAXI\\ProyectoMaxi\\Proy_DonMaxi.csproj": {}
   },
   "projects": {
-    "D:\\Users\\GEORGE\\Proyectos\\Proy_DonMaxi\\Proy_DonMaxi.csproj": {
+    "C:\\Users\\johan\\Desktop\\MAXI\\ProyectoMaxi\\Proy_DonMaxi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\GEORGE\\Proyectos\\Proy_DonMaxi\\Proy_DonMaxi.csproj",
+        "projectUniqueName": "C:\\Users\\johan\\Desktop\\MAXI\\ProyectoMaxi\\Proy_DonMaxi.csproj",
         "projectName": "Proy_DonMaxi",
-        "projectPath": "D:\\Users\\GEORGE\\Proyectos\\Proy_DonMaxi\\Proy_DonMaxi.csproj",
-        "packagesPath": "C:\\Users\\GEORGE\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\GEORGE\\Proyectos\\Proy_DonMaxi\\obj\\",
+        "projectPath": "C:\\Users\\johan\\Desktop\\MAXI\\ProyectoMaxi\\Proy_DonMaxi.csproj",
+        "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johan\\Desktop\\MAXI\\ProyectoMaxi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GEORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
