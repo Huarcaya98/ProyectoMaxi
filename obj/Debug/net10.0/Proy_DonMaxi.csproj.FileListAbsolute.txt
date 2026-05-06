@@ -1,0 +1,15 @@
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\bin\Debug\net10.0\Proy_DonMaxi.exe
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\bin\Debug\net10.0\Proy_DonMaxi.deps.json
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\bin\Debug\net10.0\Proy_DonMaxi.runtimeconfig.json
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\bin\Debug\net10.0\Proy_DonMaxi.dll
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\bin\Debug\net10.0\Proy_DonMaxi.pdb
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.AssemblyInfoInputs.cache
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.AssemblyInfo.cs
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.sourcelink.json
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.dll
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\refint\Proy_DonMaxi.dll
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.pdb
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\Proy_DonMaxi.genruntimeconfig.cache
+C:\Users\johan\Desktop\MAXI\ProyectoMaxi\obj\Debug\net10.0\ref\Proy_DonMaxi.dll

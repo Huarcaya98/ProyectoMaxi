@@ -14,6 +14,7 @@ class  Program
         string[] carNombres=new string[50];
         double[] carSubtotal=new double[50];
         int[] carCantidades= new int[50];
+        int totalItems=0;
 
     
         Console.WriteLine("Base Main - Proyecto");
@@ -34,6 +35,47 @@ class  Program
             switch(option)
             {
                 case 1:
+
+                Console.WriteLine("=== CATALOGO DISPONIBLE===");
+                Console.WriteLine("{0,-5} {1,-15 } {2,-10} ","Id","Productos","Precio");
+
+                    for (int i=0;i<10;i++) //PARA MOSTRAR EL CATALOGO
+                    {
+                        Console.WriteLine($"{catIds[i],-5} {catNombres[i],-15} {catPrecios[i]:N2}");
+                    }
+
+                    Console.WriteLine("Ingrese el ID del producto");
+                    int idSelec = int.Parse(Console.ReadLine());
+                    bool encontrado = false;
+
+                    for (int i=0;i<10;i++) //UBICA EL PRODUCTO DEL CATALOGO
+                    {
+
+                        if(catIds[i] == idSelec) //AÑADE EL PRODUCTO AL CARRITO
+                        {
+                            Console.WriteLine($"Cuanta cantidad de {carNombres[i]} deseas?");
+                            int cant = int.Parse(Console.ReadLine());
+
+                            carIds[totalItems] = catIds[i];
+                            carNombres[totalItems]=catNombres[i];
+                            carCantidades[totalItems]=cant;
+                            carSubtotal[totalItems]=catPrecios[i]*cant;
+
+                            totalItems++;
+                            encontrado=true;
+                            Console.WriteLine("Producto añadido al carrito");
+                            break;
+
+                        }
+
+                    }
+                    if (!encontrado)
+                    {
+                        Console.WriteLine("ID No valido");
+                        Console.WriteLine("PRESIONE CUALQUIER PARA CONTINUAR");
+                        Console.ReadKey();
+                    }
+
                 break;
 
                 case 2:
@@ -52,7 +94,7 @@ class  Program
         }
 
     }
-    
+
 }
 
  
