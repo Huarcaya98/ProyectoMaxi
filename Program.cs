@@ -79,6 +79,11 @@ class  Program
                 break;
 
                 case 2:
+                        Console.Clear();
+                        MostrarCarrito(carIds,carNombres,carCantidades,carSubtotal,totalItems);
+                        Console.WriteLine("PRESIONE CUALQUIER TECLA PARA VOLVER");
+                        Console.ReadKey();
+
                 break;
 
                 case 3:
@@ -94,7 +99,23 @@ class  Program
         }
 
     }
+    static void MostrarCarrito(int[] ids, string[] nombres, int[] cants, double[] subs, int total) 
+    {
+      if(total==0)
+      {
+        Console.WriteLine("carro vacio");
 
+        
+      }
+        else
+        {
+            Console.WriteLine("{0,-5} {1,-15 } {2,-10} {3,-10} ","Id","Productos","Cantidad","Subtotal");
+            for (int i=0;i<total;i++)
+            {
+                Console.WriteLine($"{ids[i],-5} {nombres[i],-15} {cants[i],-10} $/{subs[i]:N2}");
+            }
+        }
+}
 }
 
  

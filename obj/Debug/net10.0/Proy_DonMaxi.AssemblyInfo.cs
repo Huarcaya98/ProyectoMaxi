@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proy_DonMaxi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed07c6c7594fa138b1398282fcc5fe1ed347f289")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1f5bb73480e0029acc6a280bc3a063f6d205361")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proy_DonMaxi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proy_DonMaxi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
