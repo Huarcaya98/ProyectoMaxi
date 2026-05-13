@@ -86,7 +86,48 @@ class  Program
 
                 break;
 
-                case 3:
+                 case 3: //ELIMINAR PRODCUTOS EN EL CARRITO
+                    if (totalItems == 0)
+                    {
+                        Console.WriteLine("Adentro del carrito esta vacio,no hay nada que eliminar");
+                        
+                    
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("=== SELECCIONE EL PRODUCTO A ELIMINAR ===");
+                        MostrarCarrito(carIds,carNombres,carCantidades,carSubtotal,totalItems);
+
+                        Console.WriteLine("INGRESE EL ID DEL PRODCUTO QUE DESEA ELIMINAR");
+                        int idElim=int.Parse(Console.ReadLine());
+                        bool eliminado=false;
+
+                        for(int i = 0; i < totalItems; i++)
+                        {
+
+                            if (carIds[i] == idElim)
+                            {
+                                for(int j=i;j<totalItems - 1; j++) //Algoritmo de desplazamiento hacia la izquierda
+                                {
+                                    carIds[j]=carIds[j+1];
+                                    carNombres[j]=carNombres[j+1];
+                                    carCantidades[j]=carCantidades[j+1];
+                                    carSubtotal[j]=carSubtotal[j+1];
+                                }   
+                                totalItems--; //Reducimos el contador global                            
+                                eliminado=true;
+                                Console.WriteLine("PRODUCTO ELIMINADO EXITOSAMENTE");
+                                break;
+                            }
+                        }
+                        if(!eliminado)
+                        {
+                            Console.WriteLine("EL ID INGRESADO NO SE ENCUENTRA EN EL CARRITO");
+                        }
+                    }
+                    Console.WriteLine("PRESIONE CUALQUIER TECLA PARA VOLVER");
+                    Console.ReadKey();
                 break;
 
                 case 4:
