@@ -131,6 +131,35 @@ class  Program
                 break;
 
                 case 4:
+                     Console.Clear();
+                        if(totalItems == 0)
+                        {
+                            Console.WriteLine("El carritoesta vacio");
+                            Console.ReadKey();
+                        }
+                        else
+                        {
+                            double subTotalFinal = 0;
+                            Console.WriteLine("========================================");
+                            Console.WriteLine("          VOUCHER ELECTRÓNICO           ");
+                            Console.WriteLine("========================================");
+                            for (int i = 0; i < totalItems; i++)
+                            {
+                                Console.WriteLine($"{carNombres[i],-15} x{carCantidades[i],-5} S/{carSubtotal[i]:N2}");
+                                subTotalFinal += carSubtotal[i];
+                            }
+                            double igv = subTotalFinal * 0.18;
+                            Console.WriteLine("----------------------------------------");
+                            Console.WriteLine($"SUBTOTAL:         S/ {subTotalFinal:n2}");
+                            Console.WriteLine($"IGV (18%):        S/ {igv:N2}");
+                            Console.WriteLine($"TOTAL A PAGAR:    S/ {subTotalFinal + igv:N2}");
+                            Console.WriteLine("========================================");
+                            Console.WriteLine("   ¡Gracias por su compra!");
+                            Console.WriteLine("========================================");
+                            flag = false; // fin del ciclo
+                            Console.ReadKey();
+
+                        }      
                 break;
 
                 case 5:
